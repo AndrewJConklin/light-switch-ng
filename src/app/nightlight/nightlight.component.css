@@ -1,0 +1,26 @@
+h1{
+  text-align: center;
+}
+
+main {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dark {
+  font-size: 48px;
+  color: azure;
+  background-color: black;
+  text-align: center;
+  margin: 50px;
+}
+
+.light {
+  font-size: 48px;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  margin: 50px;
+}

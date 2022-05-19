@@ -1,0 +1,10 @@
+button {
+  padding: 20px;
+  font-size: large;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.light {
+  background-color: white;
+}

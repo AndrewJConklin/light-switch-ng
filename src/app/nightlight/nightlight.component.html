@@ -1,0 +1,10 @@
+
+<h1>Our Cozy Home and the Master Light Switch</h1>
+<main [class.dark]="!isOn" [class.light]="isOn" >
+  <p *ngIf="isOn; else alternate">The nightlight is on!</p>
+  <ng-template #alternate>
+    <p> The nightlight is off!</p>
+  </ng-template>
+  <app-light [isOn]="isOn"></app-light>
+  <app-switch [isOn]="isOn" (lightSwitched)="switchIt()"></app-switch>
+</main>
